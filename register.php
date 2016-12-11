@@ -58,6 +58,7 @@
 	}
 	
 	}
+	show_source("register.php");
 ?>
 </body>
 </html>

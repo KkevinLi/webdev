@@ -42,7 +42,7 @@
 		
 		}
 			echo '<div class="alert alert-warning">
-				  <strong>'.$_POST["search"].' Did not bring up any matches. Our only products are kh3 and FFXV!</strong>  </div>';
+				  <strong>'.$_POST["search"].' Did not bring up any matches. Our only products are KH3, FFVII and FFXV!</strong>  </div>';
 		
 		fclose($product);
 	}
@@ -52,7 +52,7 @@
 		header('Location:product.php');
 	}
 
-	
+	show_source("search.php");
 ?>
 </body>
 </html>
